@@ -1,4 +1,4 @@
-package net.authorize.sample.SampleCodeTest;
+--package net.authorize.sample.SampleCodeTest;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
