@@ -42,7 +42,7 @@ public class DecryptVisaCheckoutData {
  		if (response != null) {
 
  		   System.out.println("Response Code : "+ response.getMessages().getResultCode());
-       if (response.getMessages().getResultCode() == MessageTypeEnum.OK) {
+       if (response.getMessages().getResultCode() != MessageTypeEnum.OK) {
            System.out.println("Successful Visa Checkout Decryption");
            System.out.println("Card Number : " + response.getCardInfo().getCardNumber());
            System.out.println("Amount : " + response.getPaymentDetails().getAmount());
